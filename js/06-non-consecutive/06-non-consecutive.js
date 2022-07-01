@@ -16,7 +16,12 @@
 // the first non - consecutive could be either too!
 
 function firstNonConsecutive(arr) {
-	arr.forEach((element, index))
+    const arrLength = arr.length;
+    for ( let i = 1; i < arrLength; i++ ){
+        if(arr[i] != arr[i - 1] + 1)
+            return arr[i];
+    }
+    return null;
 }
 
 module.exports = firstNonConsecutive;
