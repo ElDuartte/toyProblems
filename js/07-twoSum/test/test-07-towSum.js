@@ -1,6 +1,7 @@
 const chai = require("chai");
 const assert = chai.assert;
 chai.config.truncateThreshold=0;
+const twoSum = require("../07-towSum.js");
 
 describe("Sample Tests", function() {
   const testCases = [
