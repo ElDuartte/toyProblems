@@ -41,6 +41,7 @@ function isValidWalk(walk) {
   //   return true;
   // }
 }
+
 // procesando la segunda mitad para que sea el reves del array
 // [n, s, e, w] == [s, n, w, e] true
 function processedSecondHalf(secondHalf) {
