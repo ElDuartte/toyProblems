@@ -5,16 +5,17 @@
 // converts the "T" for a "U"
 function DNAtoRNA(dna) {
   // replace all works on theory but the test on code wars don't aprove ;(
-  let rna = "";
-  if (dna !== null) {
-    return "UUUU";
+  let rna = dna.split("");
+  if (dna.length == 0) {
+    return "";
   } else {
-    let dnaLength = dna.length;
-    for (let i = 0; i >= dnaLength; i++) {
-      rna = dna[i].replace("T", "U");
+    for (let i = 0; i <= rna.length; i++) {
+      if (rna[i] == "T") {
+        rna[i] = "U";
+      }
     }
+    return rna.join("");
   }
-  return rna;
 }
 
 module.exports = DNAtoRNA;
