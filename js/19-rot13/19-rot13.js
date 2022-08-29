@@ -3,10 +3,11 @@ function rot13(message) {
   let asc = giveMeTheAs(message);
   // console.log(asc + " oldAs");
   let newAs = changeTheAs(asc);
-  console.log(newAs);
+  //console.log(newAs);
 
   return newAs;
 }
+
 // function to return the ascii values
 function giveMeTheAs(message) {
   let arrMsg = [...message];
@@ -16,8 +17,10 @@ function giveMeTheAs(message) {
   }
   return arrNum;
 }
+
 // Function to return the NEW ascii values
 function changeTheAs(asc) {
   console.log(asc + " the fuck");
 }
+
 module.exports = rot13;
