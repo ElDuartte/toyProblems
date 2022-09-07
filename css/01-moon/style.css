@@ -1,4 +1,4 @@
-* {
+/* * {
   margin: 0;
   padding: 0;
 }
@@ -84,4 +84,16 @@
   height: 20px;
   border-radius: 50%;
   background-color: #998235;
+} */
+
+.container {
+  width: 250px;
+  height: 150px;
+  background-color: gray;
+  white-space: initial;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.text {
 }

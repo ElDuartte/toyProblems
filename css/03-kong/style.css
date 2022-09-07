@@ -1,4 +1,4 @@
-  :root {
+/* :root {
   --pink: #AF067C;
   --black: #000;
   --white: #ffff;
@@ -68,4 +68,45 @@
     top: 150px;
     left: 260px;
   }
+ */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  height: 100vh;
+  /* background-color: aqua; */
+}
+
+.img1 {
+  height: 150px;
+  width: 250px;
+  background-color: blue;
+}
+
+.img2 {
+  height: 150px;
+  width: 150px;
+  /* background-color: red; */
+  border-radius: 50%;
+  animation: flip 5s infinite;
+}
+
+.text {
+  height: 150px;
+  width: 250px;
+  background-color: red;
+  border-top-left-radius: ;
+  border-bottom-right-radius: ;
+}
+
+@keyframes flip {
+  0% {
+    transform: rotateY(0deg);
+  }
+  100% {
+    transform: rotateY(360deg);
+  }
+}
 
