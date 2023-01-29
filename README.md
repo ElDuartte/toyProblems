@@ -1,4 +1,4 @@
-# Any of these exercies can be found at:
+# Any of these exercises can be found at:
 
 https://codeforces.com/ <br/>
 https://www.codewars.com/ <br/>
