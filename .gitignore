@@ -1,3 +1,8 @@
-node_modules/
-*.out
-a.out
+**/*.out
+**/a.out
+
+# Ignore all node_modules folders in any directory
+**/node_modules/
+
+# Ignore all package-lock.json files in any directory
+**/package-lock.json
