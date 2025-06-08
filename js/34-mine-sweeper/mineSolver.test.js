@@ -1,4 +1,4 @@
-const { solveMine, game } = require("./mineSolver");
+const { solveMine, game } = require("./34-mine-sweeper");
 
 describe("Minesweeper Solver", () => {
   test("Basic board should solve correctly", () => {

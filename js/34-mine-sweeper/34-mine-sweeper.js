@@ -1,6 +1,8 @@
 // Example stub
 function solveMine(map, param) {
   // Replace with your real logic
+  const rows = map.split("\n").map((row) => row.split(" "));
+  console.log(rows);
   return "";
 }
 
